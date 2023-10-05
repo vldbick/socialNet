@@ -3,6 +3,7 @@ import './App.css';
 import Header from '../header/Header';
 import Nav from '../nav/Nav';
 import Main from '../main/Main';
+import Ads from '../ads/Ads';
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       <Header></Header>
       <Nav></Nav>
       <Main></Main>
+      <Ads></Ads>
     </div>
   );
 }

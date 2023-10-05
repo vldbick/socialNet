@@ -6,14 +6,29 @@
 
 .app-wrapper {
   display: grid;
-  grid-template-rows: 60px 1fr;
-  grid-template-columns: 2fr 10fr;
+  grid-template-rows: 80px 1fr;
+  grid-template-columns: 2fr 10fr 3fr;
   grid-gap: 10px;
 
-  grid-template-areas: 
-  'h h'
-  'n c';
+  padding: 10px;
 
-  max-width: 1440px;
-  padding: 20px;
+  grid-template-areas: 
+  'h h h'
+  'n c a';
+
 }
+
+
+#sidebar {
+  grid-area: a;
+  background-color: rgb(255, 255, 255);
+  
+  border-radius: 10px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 10px;
+}
+
