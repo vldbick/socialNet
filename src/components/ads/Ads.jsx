@@ -3,7 +3,7 @@ import s from './Ads.module.css';
 
 export default function Ads() {
     return (
-        <div id="sidebar">
+        <div className={s.sidebar}>
             ЗДЕСЬ МОЖЕТ БЫТЬ ВАША РЕКЛАМА
         </div>
     )

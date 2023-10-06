@@ -1,5 +1,6 @@
 import React from "react";
 import s from './Main.module.css';
+import MyPosts from "./myPosts/MyPosts";
 
 export default function Main() {
     return (
@@ -21,11 +22,7 @@ export default function Main() {
                         </ul>
                     </div>
                 </div>
-                <div className='my-post'>
-                    <div>My posts</div>
-                    <div>input + button</div>
-                </div>
-                <div> comments</div>
+                <MyPosts></MyPosts>
             </div>
 
         </main>
