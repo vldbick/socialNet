@@ -10,8 +10,11 @@ export default function MyPosts() {
                 My posts
             </div>
             <InputPost></InputPost>
-            <Post></Post>
-            <Post></Post>
+            <Post content='"Im sorry...?And why... do you need that information?"'></Post>
+            <Post content='Stevie looks like he can actually bench 3 Sri Lankan Elephants'></Post>
+            <Post content='Will this guy ever get his date, Friday Night at 7?
+
+'></Post>
         </div>
     )
 }

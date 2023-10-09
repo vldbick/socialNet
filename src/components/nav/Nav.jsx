@@ -1,5 +1,6 @@
 import React from "react";
 import s from './Nav.module.css';
+import Ads from '../ads/Ads'
 
 export default function Nav() {
     return (
@@ -36,6 +37,7 @@ export default function Nav() {
                     </div>
                     <a href="#">Setting</a></li>
             </ul>
+
         </nav>
     )
 }

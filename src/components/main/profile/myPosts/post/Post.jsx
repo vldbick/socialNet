@@ -1,7 +1,7 @@
 import React from "react";
 import s from './Post.module.css';
 
-export default function Post() {
+export default function Post(props) {
     return (
         <div className={s.post}>
             <div className={s.img}>
@@ -10,7 +10,7 @@ export default function Post() {
             <div>
                 <div className={s.name}>Khomenko Vladyslav</div>
                 <div className={s.content}>
-                    SpaceX and Tesla are pioneering the future of space exploration and sustainable transportation, and I'm thrilled to be part of these groundbreaking journeys!
+                    {props.content}
                 </div>
             </div>
         </div>
