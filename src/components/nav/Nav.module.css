@@ -10,41 +10,11 @@
 
 }
 
-.navList {
-    list-style: none;
-}
-
 .nav a {
     text-decoration: none;
     text-transform: uppercase;
     font-weight: 600;
     color: black;
-    display: inline-block;
+    display: block;
+    width: 100%;
 }
-
-.navList li {
-    border: 2px solid rgb(129, 129, 129);
-    border-radius: 5px;
-    padding: 10px;
-
-    display: flex;
-    align-items: center;
-    gap: 5px;
-
-    margin: 10px 0;
-    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-    transition: 0.2s;
-} 
-
-.nav_icon {
-    display: flex;
-    align-items: center;
-}
-
-.nav_icon img {
-    height: 30px
-}
-
-.navList li:hover {
-    scale: 1.1;
-  }

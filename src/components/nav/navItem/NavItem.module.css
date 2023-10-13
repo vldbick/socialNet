@@ -1,0 +1,46 @@
+.nav_icon img {
+    height: 30px
+}
+
+.nav_icon {
+    display: flex;
+    align-items: center;
+}
+
+
+.itemList {
+    margin: 10px 0;
+    border: 2px solid rgb(129, 129, 129);
+    border-radius: 5px;
+    padding: 7px;
+
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap;
+    gap: 5px;
+
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    transition: 0.2s;
+}
+
+.itemList:hover .nav_icon img {
+    scale: 1.1;
+}
+
+/* .linkNotActive {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: black;
+    display: block;
+    width: 100%;
+} */
+
+.linkActive{
+    text-decoration: underline !important;
+}
+
+.linkActive .itemList {
+    background-color: rgb(208, 208, 208);
+    scale: 0.9;
+}
