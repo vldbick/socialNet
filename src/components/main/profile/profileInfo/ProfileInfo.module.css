@@ -1,0 +1,20 @@
+.pr_ph img {
+  width: 200px;
+  border-radius: 10px;
+}
+
+.profile {
+  display: flex;
+  gap: 30px;
+}
+
+.pdl {
+  list-style: none;
+  padding-top: 20px;
+
+}
+
+.pdt {
+  font-size: 25px;
+  font-weight: 700;
+}

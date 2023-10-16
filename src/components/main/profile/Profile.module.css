@@ -1,32 +1,10 @@
-
 .imgLogo img {
-    height: 120px;
-    width: 100%;
-    object-fit: cover;
-    border-radius: 10px;
-  }
-  
-  .m_cont {
-    padding: 20px;
-  }
-  
-  .pr_ph img {
-    width: 200px;
-    border-radius: 10px;
-  }
-  
-  .profile {
-    display: flex;
-    gap: 30px;
-  }
-  
-  .pdl {
-    list-style: none;
-    padding-top: 20px;
-  
-  }
-  
-  .pdt {
-    font-size: 25px;
-    font-weight: 700;
-  }
+  height: 120px;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.m_cont {
+  padding: 20px;
+}

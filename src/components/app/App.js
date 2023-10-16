@@ -9,12 +9,10 @@ import { BrowserRouter } from 'react-router-dom';
 function App() {
   return (
     <div className='app-wrapper'>
-      <BrowserRouter>
-        <Header></Header>
-        <Nav></Nav>
-        <Main></Main>
-        <Ads></Ads>
-      </BrowserRouter>
+      <Header></Header>
+      <Nav></Nav>
+      <Main></Main>
+      <Ads></Ads>
     </div>
   );
 }

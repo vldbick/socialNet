@@ -8,7 +8,6 @@ import Musics from "./musics/Musics";
 import News from "./news/News";
 import Setting from "./sitting/Setting";
 
-
 export default function Main() {
     return (
         <main className={s.main}>
