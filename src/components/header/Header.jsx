@@ -1,12 +1,12 @@
 import React from "react";
 import s from './Header.module.css';
 
-export default function Header() {
+export default function Header({header}) {
     return (
         <header className={s.header}>
             <div className={s.headerLogo}>
                 <a href="#">
-                    <img src='https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Google_%22G%22_Logo.svg/800px-Google_%22G%22_Logo.svg.png' />
+                    <img src={header.img} />
                 </a>
             </div>
         </header>

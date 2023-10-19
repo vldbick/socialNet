@@ -3,10 +3,10 @@ import s from './Messages.module.css';
 import Dialogs from "./dialogs/Dialogs";
 import { Route, Router, Routes, Switch } from "react-router-dom";
 
-export default function Messages(props) {
+export default function Messages({mess}) {
     return (
         <div>
-            <Dialogs></Dialogs>
+            <Dialogs mess={mess}></Dialogs>
         </div>
     )
 }

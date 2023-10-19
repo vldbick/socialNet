@@ -6,13 +6,15 @@ import Main from '../main/Main';
 import Ads from '../ads/Ads';
 import { BrowserRouter } from 'react-router-dom';
 
-function App() {
+function App({state}) {
   return (
     <div className='app-wrapper'>
-      <Header></Header>
-      <Nav></Nav>
-      <Main></Main>
-      <Ads></Ads>
+      <BrowserRouter>
+        <Header header={state.header}></Header>
+        <Nav></Nav>
+        <Main state={state}></Main>
+        <Ads></Ads>
+      </BrowserRouter>
     </div>
   );
 }

@@ -8,12 +8,12 @@ import Musics from "./musics/Musics";
 import News from "./news/News";
 import Setting from "./sitting/Setting";
 
-export default function Main() {
+export default function Main({state}) {
     return (
         <main className={s.main}>
             <Routes>
-                <Route Component={Profile} path="/profile"></Route>
-                <Route Component={Messages} path="/messages"></Route>
+                <Route element={<Profile self={state.self}></Profile>} path="/profile"></Route>
+                <Route element={<Messages mess={state.other}></Messages>} path="/messages"></Route>
                 <Route Component={Friends} path="/friends"></Route>
                 <Route Component={Musics} path="/music"></Route>
                 <Route Component={News} path="/news"></Route>
